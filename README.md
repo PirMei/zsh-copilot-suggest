@@ -23,7 +23,7 @@ A zimfw plugin that integrates the GitHub Copilot CLI binary directly with your 
 Add to your `.zimrc`:
 
 ```zsh
-zmodule git@gitlab.zt.msg.team:meixnp/zsh-copilot-suggest
+zmodule PirMei/zsh-copilot-suggest
 ```
 
 Then run:
@@ -37,7 +37,7 @@ zimfw install
 1. Clone the repository:
 
    ```bash
-   git clone git@gitlab.zt.msg.team:meixnp/zsh-copilot-suggest ~/.config/zsh/plugins/    zsh-copilot-suggest
+   git clone https://github.com/PirMei/zsh-copilot-suggest ~/.config/zsh/plugins/    zsh-copilot-suggest
    ```
 
 2. Add to your `.zshrc`:
