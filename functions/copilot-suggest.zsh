@@ -49,7 +49,7 @@ zle -R
 
 # Run copilot synchronously (blocks the widget, which also prevents re-entry)
 local suggestion
-suggestion=$(copilot --prompt "Give me a shell command for $SHELL that does: $prompt. Output ONLY the command, no explanation, no markdown." --log-level none 2>/dev/null)
+suggestion=$(copilot --silent --prompt "Give me a shell command for $SHELL that does: $prompt. Output ONLY the command, no explanation, no markdown." --log-level none 2>/dev/null)
 
 # Clean up: strip any accidental code fences or blank lines
 suggestion=${suggestion//\`\`\`/}
